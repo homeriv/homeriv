@@ -1,0 +1,21 @@
+/*! Load the Lato Web Font. */
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+	font-family: 'Lato', sans-serif;
+}
+
+.full {
+  background: url(../img/main_1920x1080.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Bootstrap Overrides */
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 400 !important;
+}
